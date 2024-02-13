@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  background-image: linear-gradient(to right, white, yellow);
+}
+
+.table {
+  width: 100%;
+  margin: 20px;
+}
+
+.table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-spacing: 3px;
+  text-align: center;
+}
+td {
+  background-color: transparent;
+  color: black;
+}
+
+th {
+}
+td:hover,
+th:hover {
+  background-color: lightblue;
+  color: magenta;
+}
+
+tr:nth-child(odd) {
+  background-color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
