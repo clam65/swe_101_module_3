@@ -12,7 +12,6 @@ body {
 
 .table {
   width: 100%;
-  margin: 20px;
 }
 
 .table,
@@ -28,12 +27,11 @@ td {
   color: black;
 }
 
-th {
-}
 td:hover,
 th:hover {
   background-color: lightblue;
   color: magenta;
+  cursor: grab;
 }
 
 tr:nth-child(odd) {
